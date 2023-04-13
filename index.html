@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./css/style.css" />
+        <script src="./js/script.js" defer></script>
+        <title>Weather Forecast</title>
+    </head>
+    <body>
+        <div class="header-container">
+            <div class="header-text">
+                <h1 class="title">DojoWeather</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#" onclick="myFunction()">Burbank</a></li>
+                        <li><a href="#">Chicago</a></li>
+                        <li><a href="#">Dallas</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="main-container">
+            <div class="row">
+                <h1>San Jose</h1>
+                <div class="temp-text">
+                    <p>show temperature in</p>
+                    <select class="select-box">
+                        <option value="celsius">&#8451;</option>
+                        <option value="fahrenheit">&#8457;</option>
+                    </select>
+                </div>
+            </div>
+            <div class="box-section">
+                <div class="box">
+                    <h2>Today</h2>
+                    <img src="./img/some_rain.png" alt="rain cloud" />
+                    <h3>some rain</h3>
+                    <h4 class="red">75° <span class="blue">65°</span></h4>
+                </div>
+                <div class="box">
+                    <h2>Tomorrow</h2>
+                    <img src="./img/some_sun.png" alt="sun" />
+                    <h3>some sun</h3>
+                    <h4 class="red">80° <span class="blue">66°</span></h4>
+                </div>
+                <div class="box">
+                    <h2>Friday</h2>
+                    <img src="./img/some_clouds.png" alt="cloud" />
+                    <h3>some clouds</h3>
+                    <h4 class="red">69° <span class="blue">61°</span></h4>
+                </div>
+                <div class="box">
+                    <h2>Saturday</h2>
+                    <img src="./img/some_sun.png" alt="sun" />
+                    <h3>some sun</h3>
+                    <h4 class="red">78° <span class="blue">70°</span></h4>
+                </div>
+            </div>
+            <div class="cookie" id="message">
+                <img class="cookie-img" src="./img/cookie.png" alt="cookie" />
+                <div class="cookie-text">
+                    <h2 class="stop">Stop! Cookie time</h2>
+                    <p>
+                        We use cookies (sadly not the edible ones) to
+                        personalize content and ads, to provide social media
+                        features and to analyze our traffic.
+                        <a class="more" href="#" target="_blank"
+                            >Read more...</a
+                        >
+                    </p>
+                </div>
+                <button onclick="removeMessage()">I Accept</button>
+            </div>
+        </div>
+    </body>
+</html>

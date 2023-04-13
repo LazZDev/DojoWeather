@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-container {
+    background-color: #73bff1;
+}
+
+.header-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    margin: 0 auto;
+    width: 600px;
+}
+
+.title {
+    display: flex;
+    color: white;
+    font-size: 40px;
+}
+
+ul,
+li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 17px;
+}
+
+a {
+    color: white;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    font-family: "Signika";
+    width: 600px;
+    height: 500px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    background-color: white;
+    height: 70px;
+    width: 600px;
+}
+
+h1 {
+    font-family: "Signika";
+}
+
+h3 {
+    font-size: smaller;
+}
+
+.red {
+    font-size: larger;
+    color: red;
+}
+
+.blue {
+    color: blue;
+    margin-left: 30px;
+}
+
+.temp-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.select-box {
+    margin-left: 5px;
+    width: 50px;
+    height: 30px;
+}
+
+.box-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: whitesmoke;
+    height: 220px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    width: 130px;
+}
+
+img {
+    border-radius: 80px;
+    width: 95px;
+}
+
+.cookie {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    margin-top: 5px;
+    height: 100px;
+}
+
+.cookie-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+}
+
+.cookie-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: smaller;
+    font-weight: bold;
+    width: 350px;
+}
+
+.stop {
+    font-size: 17px;
+}
+
+.more {
+    color: blue;
+}
+
+button {
+    border: 2px solid black;
+    box-shadow: 3px 3px 1px 1px black;
+    background-color: #73bff1;
+    padding: 3px 5px;
+    width: 70px;
+}
